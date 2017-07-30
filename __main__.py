@@ -1,8 +1,6 @@
 """Main module."""
 
-# import card
 import game
-# import stack
 import tests
 
 def main():

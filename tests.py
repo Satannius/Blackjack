@@ -14,7 +14,7 @@ def test_player_turn():
     """Test player methods"""
     stack_ = stack.Stack()
     stack_.shuffle()
-    player_ = player.Player(stack_)
+    player_ = player.Player(stack_, 1)
     player_.turn()
 
 def test_stack_length():

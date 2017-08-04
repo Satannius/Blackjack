@@ -1,5 +1,13 @@
-*.pyc
-*.txt
-__pycache__/
+# editor and IDE settings
 .vscode/
-.idea
+.idea/
+
+# generated
+__pycache__/
+*.pyc
+
+# other
+*.txt
+
+# system
+.DS_Store
